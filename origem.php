@@ -1,7 +1,8 @@
 <?php
   $hiphop_pt = array("Origem","PARCERIAS","SHOWS","ACONTECIMENTOS","CURIOSIDADES","NOVIDADES","EVENTOS");
-$hiphop_en = array("Origin","PARTNERSHIPS","SHOWS","DOINGS","CURIOSITIES","NEWS","EVENTS");
-  $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en);
+  $hiphop_en = array("Origin","PARTNERSHIPS","SHOWS","DOINGS","CURIOSITIES","NEWS","EVENTS");
+  $hiphop_es = array("Fuente", "ASOCIACIONES", "ESPECTÁCULOS", "EVENTOS", "DATOS CURIOSOS", "NOTICIAS", "EVENTOS");
+  $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en, 'ES' => $hiphop_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
  ?>
@@ -31,10 +32,10 @@ $hiphop_en = array("Origin","PARTNERSHIPS","SHOWS","DOINGS","CURIOSITIES","NEWS"
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-4">
-                                <img src="../images/hip-hop/capa.jpg" class="img-fluid mt-4" alt="Responsive image">
-                            </div>
-                            <div class="col-sm-8 mt-4">
+
+                                <img src="../images/hip-hop/capa.jpg" class="rounded mx-auto d-block mt-4" alt="Responsive image">
+
+                            <div class="mt-4">
                                 <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin urna nec vestibulum pellentesque. Ut leo felis, malesuada quis nunc id, ornare aliquam dolor. Cras sed felis pretium ex sollicitudin fermentum. Donec ultricies felis sed consectetur accumsan. Proin libero ante, consequat sit amet justo id, sodales congue ipsum. Sed condimentum ante eget ex imperdiet pretium. Ut pretium nisl lacinia leo ultrices commodo. Curabitur neque lacus, elementum ut nisl et, tristique lobortis mi. Nunc consectetur fermentum erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin urna nec vestibulum pellentesque. Ut leo felis, malesuada quis nunc id, ornare aliquam dolor. Cras sed felis pretium ex sollicitudin fermentum. Donec ultricies felis sed consectetur accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin urna nec vestibulum pellentesque. Ut leo felis, malesuada quis nunc id, ornare aliquam dolor. Cras sed felis pretium ex sollicitudin fermentum. Donec ultricies felis sed consectetur accumsan.</p>
                             </div>
                         </div>

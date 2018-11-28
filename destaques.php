@@ -1,7 +1,8 @@
 <?php
   $hiphop_pt = array("Destaques: Premiações","O AMA é uma premiação reconhecida mundialmente, ao lado das premiações Grammy e Billboard.","Comentário de Artistas","Prêmio");
-$hiphop_en = array("Highlights: Awards","The AMA is a world-renowned award, alongside the Grammy and Billboard awards.","Artists Commentary","Award");
-  $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en);
+  $hiphop_en = array("Highlights: Awards","The AMA is a world-renowned award, alongside the Grammy and Billboard awards.","Artists Commentary","Award");
+  $hiphop_es = array("Destacados: premios", "El AMA es una premiación reconocida mundialmente, junto a los premios Grammy y Billboard.", "Comentario de Artistas", "Premio");
+  $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en, 'ES' => $hiphop_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
  ?>
@@ -87,7 +88,6 @@ $hiphop_en = array("Highlights: Awards","The AMA is a world-renowned award, alon
         </div>
              <div class="col-sm-5 mb-2">
                  <h4 class="text-white bg-dark text-center"><?php echo $hiphop[$ID][3]?></h4>
-            <section class="hip-dest-sect">
             <div class="d-flex align-self-center ">
               <div class="text-center p-2 flex-fill flex flex-column items-center justify-center  w-100">
                 <a href="https://www.theamas.com/" class="btn btn btn-outline-warning btn-lg w-100" title="AMA">
@@ -116,7 +116,6 @@ $hiphop_en = array("Highlights: Awards","The AMA is a world-renowned award, alon
                   <span class="menu-text-dest">Grammy Latino</span>
                 </a>
               </div>
-          </section>
                 </div>
                 
         </div>
